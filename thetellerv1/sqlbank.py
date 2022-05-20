@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 
-engine = create_engine('sqlite:////home/pythonprojects/discroll/bank.db', echo=True)
+engine = create_engine('sqlite:////home/pythonprojects/thetellerv1/bank.db', echo=True)
 
 from sqlalchemy.ext.declarative import declarative_base
 
